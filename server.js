@@ -24,12 +24,12 @@ app.listen(port, function () {
 })
 
 // Send the css file
-app.get('/styles.css', function (req, res, next) {
+app.get('/public/url/style.css', function (req, res, next) {
     res.sendFile(__dirname + '/public/url/style.css');
 })
 
 // Send the javascript 
-app.get('/script.js', function (req, res, next) {
+app.get('/public/url/script.js', function (req, res, next) {
     res.sendFile(__dirname + '/public/url/script.js');
 })
 

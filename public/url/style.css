@@ -1,0 +1,67 @@
+/**
+ * Body css
+ */
+body {
+    background-color: #1c1c1c;
+    color: #fefefe;
+    text-align: center;
+}
+
+/**
+* link css
+*/
+a {
+    color: #5fa9ee
+}
+
+/**
+* Image CSS
+*/
+img {
+    filter: grayscale(20%);
+}
+
+/**
+ * input css
+ */
+input {
+    background-color: #2c2c2c;
+    border-color: #1c1c1c;
+    color: #fefefe;
+}
+
+/**
+* list for navigation bar
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/**
+* items in the list
+*/
+li {
+  float: left;
+}
+
+/*
+* links in th list
+*/
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/**
+* Links when hovering over table
+*/
+li a:hover {
+  background-color: #111;
+}
